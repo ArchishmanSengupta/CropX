@@ -228,6 +228,20 @@ class _HomePageState extends State<HomePage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
+                Text('Daily Recepies',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                )
+                ), 
+                Icon(Icons.arrow_forward_ios,size:18,color:Colors.black,)
+              ],),
+              _strate('images/Group 8.png'),
+              
+              SizedBox(height:10,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
                 Text('New Products',
                 style: TextStyle(
                   fontSize: 18,
@@ -438,4 +452,22 @@ class _HomePageState extends State<HomePage> {
     ),
     );
   }
-}
+
+  Widget _strate(String image){
+    return Container(
+      height:170,
+      width:160,
+      decoration: BoxDecoration(
+        color:Colors.grey[300],
+        borderRadius: BorderRadius.circular(15),
+
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Image.asset(image)
+        ]
+      )
+    );
+  }
+  }
