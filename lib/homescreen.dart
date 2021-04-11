@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 
 
 // class corpx extends StatelessWidget {
@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(150),
         child: Container(
-          padding: EdgeInsets.only(top:45,left: 20,right: 20),
+          padding: EdgeInsets.only(top:43,left: 20,right: 20),
           child: Column(
             children: [
               Row(
@@ -81,7 +81,6 @@ class _HomePageState extends State<HomePage> {
                                   fontSize:16,color: Colors.grey,
                                 ),
                               ),
-
                             ]
                           )
                         ],
@@ -124,7 +123,7 @@ class _HomePageState extends State<HomePage> {
                         ),
                         
                         ),
-                        Text('CorpX',
+                        Text('CropX',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Color(0xffe2e2e2),
@@ -138,8 +137,10 @@ class _HomePageState extends State<HomePage> {
 
                 ),
               ),
-              SizedBox(height:20,),
-              Row(children: [
+              SizedBox(height:10,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
                 Text('Recommended',
                 style: TextStyle(
                   fontSize: 18,
@@ -148,10 +149,127 @@ class _HomePageState extends State<HomePage> {
                 ), 
                 Icon(Icons.arrow_forward_ios,size:18,color:Colors.black,)
               ],),
-              // _fruitBox(
-                
-              // )
-            ],)
+              SizedBox(height:10,),
+              SingleChildScrollView
+              (
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+
+                  ],
+                ),
+              ),
+
+
+
+              SizedBox(height:10,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                Text('Top Selling',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                )
+                ), 
+                Icon(Icons.arrow_forward_ios,size:18,color:Colors.black,)
+              ],),
+              SizedBox(height:10,),
+              SingleChildScrollView
+              (
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+
+                  ],
+                ),
+              ),
+              SizedBox(height:10,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                Text('New Products',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                )
+                ), 
+                Icon(Icons.arrow_forward_ios,size:18,color:Colors.black,)
+              ],),
+              SizedBox(height:10,),
+              SingleChildScrollView
+              (
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    SizedBox(width:20,),
+
+                  ],
+                ),
+              ),
+              
+            ],
+            
+            ),
           )
         ,),
       ),
@@ -173,8 +291,9 @@ class _HomePageState extends State<HomePage> {
                   color:Colors.black,
                   fontSize: 14,
                 ),
-                )
+                ),
               ],
+            
               ),
             ),
             Container(
@@ -191,8 +310,8 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
             CircleAvatar(
-              child: Icon(Icons.map),
-              
+              child: Icon(Icons.bar_chart),
+              backgroundColor: Colors.green,
             ),
             Container(
               child: Column(
@@ -219,7 +338,7 @@ class _HomePageState extends State<HomePage> {
                 )
               ],
               ),
-            )
+            ),
           ],
           ),
         ),
@@ -229,10 +348,94 @@ class _HomePageState extends State<HomePage> {
     );
   }
 
-  // Widget _fruitBox(){
-  //   return Container(
-  //     height: 210, width:130, 
-  //   color:Colors.red,
-  //   );
-  // }
+  Widget _fruitBox(String image, String name,String price){
+    return Container(
+      height: 210, width:150, 
+      decoration: BoxDecoration(color: Colors.grey[300],
+      borderRadius: BorderRadius.circular(15),
+    ),
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children:[
+        Container(
+          color:Colors.red,
+          height:110, 
+          child:
+          Center(
+            child: Image.asset(image),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.only(left: 8.0,right:8.0,top:8.0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children:[
+            Text('1 kg', 
+            style: TextStyle(
+              color: Colors.grey[400],
+              fontWeight: FontWeight.bold),
+            ),
+            Container(
+              height:10,
+              width:35,
+              decoration: BoxDecoration(
+                color: Color(0xfff6d798),
+                borderRadius: BorderRadius.circular(5),
+              ),
+              // child: Row(
+              //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              //   children: [
+              //     Image.asset('images/star.png'),
+              //   Text('4.8',
+              //   style: TextStyle(fontSize: 11,color: Colors.white),
+              //   )
+              //   ] ,
+              // ),
+            ),
+            
+
+          ],
+          ),
+        ),
+        SizedBox(
+          height: 13,
+            ),
+            Padding(
+              padding: const EdgeInsets.only(left: 8.0),
+              child: Text(
+              name, style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize:15),
+            ),
+            ),
+            // SizedBox(height: 11,),
+            Padding(
+              padding: const EdgeInsets.only(left: 8.0,bottom: 8.0,right: 8.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Text(price,style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                  ),
+                  Container(
+                    height:30, 
+                    width: 30,
+                    decoration: BoxDecoration(
+                      color:Color(0xff3dab85),
+                      borderRadius: BorderRadius.circular(15),
+                      
+
+                    ),
+                    child: Icon(Icons.shopping_cart, color:Colors.white),
+                  )
+                ],
+              ),
+            )
+      ],
+    ),
+    );
+  }
 }
