@@ -1,21 +1,20 @@
 import 'package:flutter/material.dart';
 
-
-
-// class corpx extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       debugShowCheckedModeBanner:false,
-//       home: HomePage(),
-//     );
-//   }
-// }
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
 }
 
+
+
+
+
+
+// 
+// 
+// Top Part of the Screen
+// 
+// 
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
@@ -96,6 +95,11 @@ class _HomePageState extends State<HomePage> {
           )
         )
 
+
+// Card Scrolling
+
+
+
       ),
       body: Padding(
         padding: const EdgeInsets.only(left:20,right:20,top:20),
@@ -155,26 +159,21 @@ class _HomePageState extends State<HomePage> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/app.jfif','Apples','Rs. 120'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/banana.png','Apples','Rs. 50'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/straw.png','Apples','Rs. 180'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/water.jpg','Watermelon','Rs. 50'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/greenapp.png','Green Apples','Rs. 120'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/straw.png','Strawberry','Rs. 180'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/banana.png','Banana','Rs. 70'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
-                    SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
-                    SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
-                    SizedBox(width:20,),
+                    _fruitBox('images/straw.png','Strawberry','Rs. 160'),
 
                   ],
                 ),
@@ -200,26 +199,21 @@ class _HomePageState extends State<HomePage> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/app.jfif','Apples','Rs. 120'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/banana.png','Apples','Rs. 50'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/straw.png','Apples','Rs. 180'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/water.jpg','Watermelon','Rs. 50'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/greenapp.png','Green Apples','Rs. 120'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/straw.png','Strawberry','Rs. 180'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/banana.png','Banana','Rs. 70'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
-                    SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
-                    SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
-                    SizedBox(width:20,),
+                    _fruitBox('images/straw.png','Strawberry','Rs. 160'),
 
                   ],
                 ),
@@ -256,26 +250,21 @@ class _HomePageState extends State<HomePage> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/app.jfif','Apples','Rs. 120'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/banana.png','Apples','Rs. 50'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/straw.png','Apples','Rs. 180'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/water.jpg','Watermelon','Rs. 50'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/greenapp.png','Green Apples','Rs. 120'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/straw.png','Strawberry','Rs. 180'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
+                    _fruitBox('images/banana.png','Banana','Rs. 70'),
                     SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
-                    SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
-                    SizedBox(width:20,),
-                    _fruitBox('images/apple.jfif','Apples','Rs. 120'),
-                    SizedBox(width:20,),
+                    _fruitBox('images/straw.png','Strawberry','Rs. 160'),
 
                   ],
                 ),
@@ -373,7 +362,6 @@ class _HomePageState extends State<HomePage> {
       crossAxisAlignment: CrossAxisAlignment.start,
       children:[
         Container(
-          color:Colors.red,
           height:110, 
           child:
           Center(
@@ -465,7 +453,16 @@ class _HomePageState extends State<HomePage> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Image.asset(image)
+          Image.asset(image),
+          Padding(
+            padding: const EdgeInsets.only(left: 8.0,right: 8.0,top: 25,bottom: 8.0),
+            child: Text('Spicy chowmein',style: TextStyle(
+              
+              color: Colors.black,
+              fontSize: 15,
+              fontWeight:FontWeight.bold
+              )),
+          )
         ]
       )
     );
