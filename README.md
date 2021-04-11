@@ -44,7 +44,7 @@ An AgTech application for agricultural standard
 
 CropX is an Open Source Application made with love using Flutter to kickstart, uplift & help small scale farming business and industries to sell their products and customers to buy their grow in a reasonable money. The idea was generated during Hack-A-NOVA by Delhi Technological Unoiversity. CropX is the one way stop to upgrade farming businesses near a potential customer with awesome features like chat, payment,review all integrated into one.
 
-It is a digital platform that connects the full agriculture value chain — farmers, retailers, wholesalers, manufacturers, and grain/food companies, for more efficient business and communication. Retailers, manufacturers, and grain companies benefit from Agro.Club’s enterprise solution that allows them to run their campaigns more effectively, serve their farm customers better, and optimize the costs
+It is a digital platform that connects the full agriculture value chain — farmers, retailers, wholesalers, manufacturers, and grain/food companies, for more efficient business and communication. Retailers, manufacturers, and grain companies benefit from CropX’s enterprise solution that allows them to run their campaigns more effectively, serve their farm customers better, and optimize the costs
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
