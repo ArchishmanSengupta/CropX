@@ -16,8 +16,8 @@ An AgTech application for agricultural standard
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 
- ## For Project Presentation(website) [Click here]()
- For Project Presentation(gdrive) : [Click Here]()<br>
+ ## For Project Presentation(website) [Click here](https://www.canva.com/design/DAEbXncKDnY/GtujtLxYEmXbzGl1qcz6HQ/view?website#2:page-1)
+ For Project Presentation(gdrive) : [Click Here](https://drive.google.com/file/d/1SEBu9zkgvlEISGAs4JUVZigsF5LVgrnN/view?usp=sharing)<br>
 
 <h2 align="center" id="content"> 🗂 CONTENT:</h2>
 
@@ -267,16 +267,19 @@ Then add a title and description to your pull request that explains your preciou
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
-<h2 align="center" id="FeaturesWeDemand"> :star: Features We Demand</h2>
+<h2 align="center" id="FeaturesWeDemand"> :star: Features Demanded</h2>
 
 |<h2> 1️⃣ AUTOMATION : Perform Tasks In Background</h2>|
 |---|
 |🔘To generate notifications **` build a notify system`**|
-|🔘 Make a special notification system which **`instant active for all the mermbers`**|
+|🔘 Make a **`special notification system which`**|
 |🔘 **`Make a Bar Code scanner `** to integrate it to payment gateway|
 |🔘 **` User friendly`** sorting and filtering based on price, distance|
-|🔘 **`Build a Voice-chat option`** int the chat section|
+|🔘 **`Build a Voice-chat option`** into the chat section|
 |🔘 Need a **`fully functioning`** Machine Learning **`Handwriting to text translator`**|
+|🔘 Build a **`fully functioning Account Management System`**|
+|🔘 A **`Calculator`** which can perform computational calulations based on different parameters and complex data|
+|🔘 A **`cloud system`** to keep all satellite imagery data in one place which will be then fetched by the data engine |
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 <br>
