@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
                   Column(
                     children: [
                       Text('Sunday, 11th Apr 2021'),
-                      Text('Good Morning, Mukesh',style: TextStyle(
+                      Text('Good Morning, Archishman',style: TextStyle(
                         fontSize:22,
                         
                         //fontFamily:
@@ -97,7 +97,60 @@ class _HomePageState extends State<HomePage> {
         )
 
       ),
-      
+      body: Padding(
+        padding: const EdgeInsets.only(left:20,right:20,top:20),
+        child: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          child: Container(
+            
+            width: MediaQuery.of(context).size.width,
+            child:Column(children: [
+              Container(
+                height:200, 
+                child: Stack(
+                  children: [
+                    Image.asset('images/scroll.png'),
+                    Padding(padding: EdgeInsets.only(top:95,left:18),
+                    child:Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('Fresh Food from farm',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                          fontSize: 18,
+                      
+                        ),
+                        
+                        ),
+                        Text('CorpX',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Color(0xffe2e2e2),
+                          fontSize: 18
+                        ),
+                        ),
+                    ],)
+                    )
+                    
+                  ],
+
+                ),
+              ),
+              SizedBox(height:20,),
+              Row(children: [
+                Text('Recommended',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                )
+                ), 
+                Icon(Icons.arrow_forward_ios,size:18,color:Colors.black,)
+              ])
+            ],)
+          )
+        ,),
+      ),
     );
   }
 }
