@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return SplashScreen(
       seconds: 5,
-      backgroundColor: Colors.black,
+      backgroundColor: Colors.white,
       image: Image.asset('images/CORPX.gif'),
       photoSize: 180,
       navigateAfterSeconds: HomePage(),

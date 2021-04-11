@@ -24,10 +24,11 @@ class _HomePageState extends State<HomePage> {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(150),
         child: Container(
-          padding: EdgeInsets.only(top:50,left: 20,right: 20),
+          padding: EdgeInsets.only(top:45,left: 20,right: 20),
           child: Column(
             children: [
               Row(
+                crossAxisAlignment:CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Column(
@@ -41,7 +42,7 @@ class _HomePageState extends State<HomePage> {
                     ],
                   ),
                   CircleAvatar(
-                    
+                    backgroundColor: Colors.black,
                   )
                 ],
               ),
@@ -49,7 +50,7 @@ class _HomePageState extends State<HomePage> {
               Row(
                 children: [
                   Container(
-                    height:35, width:35,
+                    height:30, width:30,
                     decoration: BoxDecoration(color: Colors.grey[300],
                     border: Border.all(
                       color: Colors.grey[300],width:3,
@@ -146,11 +147,92 @@ class _HomePageState extends State<HomePage> {
                 )
                 ), 
                 Icon(Icons.arrow_forward_ios,size:18,color:Colors.black,)
-              ])
+              ],),
+              // _fruitBox(
+                
+              // )
             ],)
           )
         ,),
       ),
+      bottomNavigationBar: BottomAppBar (
+        color:Colors.white,
+        child: Container(
+          height: 50, 
+          color: Colors.white,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+            Container(
+              child: Column(
+                children:[
+                Icon(Icons.agriculture,color:Colors.green),
+                Text('Overview ',
+                style:TextStyle(
+                  color:Colors.black,
+                  fontSize: 14,
+                ),
+                )
+              ],
+              ),
+            ),
+            Container(
+              child: Column(
+                children:[
+                Icon(Icons.money,color:Colors.green),
+                Text('Money ',
+                style:TextStyle(
+                  color:Colors.green,
+                  fontSize: 14,
+                ),
+                )
+              ],
+              ),
+            ),
+            CircleAvatar(
+              child: Icon(Icons.map),
+              
+            ),
+            Container(
+              child: Column(
+                children:[
+                Icon(Icons.notifications,color:Colors.green),
+                Text('Notifications ',
+                style:TextStyle(
+                  color:Colors.black,
+                  fontSize: 14,
+                ),
+                )
+              ],
+              ),
+            ),
+            Container(
+              child: Column(
+                children:[
+                Icon(Icons.shop,color:Colors.green),
+                Text(' Cart',
+                style:TextStyle(
+                  color:Colors.black,
+                  fontSize: 14,
+                ),
+                )
+              ],
+              ),
+            )
+          ],
+          ),
+        ),
+
+
+      ),
     );
   }
+
+  // Widget _fruitBox(){
+  //   return Container(
+  //     height: 210, width:130, 
+  //   color:Colors.red,
+  //   );
+  // }
 }
