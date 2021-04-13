@@ -95,6 +95,8 @@ It is a digital platform that connects the full agriculture value chain — farm
    :point_right: Account Management System - This app will provide producers with accurate, real-time information right from your accounting system. Spend less time fielding clerical phone calls and get down to business faster by starting the conversation informed. Can access to their contracts, scale tickets, prepays, cash bids, and markets.<br/>
    :point_right: Proper percentage Calculator- The app aids with quick, accurate calculations of product mixes to be applied with spraying equipment. Users can create custom lists of favorite products by category. Simply add or select a product, insert values in each input box, and the app automatically calculates the amount of product to include in the user-defined mix size.  <br/>
    
+   ![sential GRD](https://user-images.githubusercontent.com/71402528/114589088-f7bf2180-9ca4-11eb-8d30-d2cb72fa8801.jpg)
+
 
 <i><p align="center"><a href="#content">⬆️ BACK TO CONTENT</a></p></i><br>
 
