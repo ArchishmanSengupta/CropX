@@ -59,7 +59,6 @@ It is a digital platform that connects the full agriculture value chain — farm
 + Google Earth Engine  +
 ```
 ![earth engine](https://user-images.githubusercontent.com/71402528/114587953-c7c34e80-9ca3-11eb-8a08-b304770ffaf4.png)
-![scroll](https://user-images.githubusercontent.com/71402528/114587986-cf82f300-9ca3-11eb-91c5-169f1b752feb.png)
 
 </h2>
 
@@ -84,7 +83,13 @@ It is a digital platform that connects the full agriculture value chain — farm
    
    #### More Future Features
    :point_right: Weather Forecast - Based on availability and location data we are going to provide a Weather forecast for the Farmers so the farm owners know the possible climate model for next 1D, 1W,1M, 1Y and so on <br/>
+   
+   ![noaa_cdr_oisst_v2](https://user-images.githubusercontent.com/71402528/114588514-651e8280-9ca4-11eb-8235-433c1c0a518a.gif)
+
    :point_right: Live Sensory Data - To keep a track with safety the live sensory data directly fro satellite will ensure and will direct any alert in case of emergency using Big Data<br/>
+   
+   ![satellite imagery](https://user-images.githubusercontent.com/71402528/114588412-4a4c0e00-9ca4-11eb-9bbd-f23a4bf7588b.gif)
+
    :point_right: Data-Engine - a cellular-and-GPS device that plugs into a farm machine’s diagnostic port, listens to the sensors, and sends the engine and agronomy data to the DataEngine<br/>
    :point_right: Crop Nutriention check - This app willallows agricultural producers to instantly identify crop nutrient deficiencies; get product recommendations; check spray tank compatibility; download label .Growers, PCAs, or plant nutritionists can search for deficiency symptoms by crop to access images of visual symptoms<br/>
    :point_right: Account Management System - This app will provide producers with accurate, real-time information right from your accounting system. Spend less time fielding clerical phone calls and get down to business faster by starting the conversation informed. Can access to their contracts, scale tickets, prepays, cash bids, and markets.<br/>
